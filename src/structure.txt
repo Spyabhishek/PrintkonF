@@ -1,0 +1,158 @@
+.
+├── App.jsx
+├── apps
+│   ├── admin
+│   │   ├── layouts
+│   │   │   └── AdminLayout.jsx
+│   │   └── pages
+│   │       ├── AdminDashboard.jsx
+│   │       ├── OperatorsList.jsx
+│   │       └── RoleRequests.jsx
+│   ├── auth
+│   │   ├── ActivateAccount.jsx
+│   │   ├── layouts
+│   │   │   └── AuthLayout.jsx
+│   │   ├── Login.jsx
+│   │   ├── RequestResetPassword.jsx
+│   │   └── Signup.jsx
+│   ├── operator
+│   │   ├── layouts
+│   │   │   └── OperatorLayout.jsx
+│   │   └── pages
+│   │       └── OperatorDashboard.jsx
+│   ├── superadmin
+│   │   ├── layouts
+│   │   │   └── SuperAdminLayout.jsx
+│   │   └── pages
+│   │       ├── AllUsers.jsx
+│   │       ├── SuperAdminDashboard.jsx
+│   │       └── VerifyUpgrades.jsx
+│   └── user
+│       ├── components
+│       │   ├── AddressSelector.jsx
+│       │   ├── OrderDetails.jsx
+│       │   ├── OrderHistory.jsx
+│       │   ├── OrderSummary.jsx
+│       │   ├── PaymentMethodSelector.jsx
+│       │   ├── PlaceOrder.jsx
+│       │   └── UpgradeRole.jsx
+│       ├── layouts
+│       │   └── UserLayout.jsx
+│       └── pages
+│           ├── CheckoutPage.jsx
+│           ├── UserDashboard.jsx
+│           └── UserLandingPage.jsx
+├── assets
+│   └── images
+│       └── image.webp
+├── features
+│   ├── landing
+│   │   ├── components
+│   │   │   ├── ExploreAllCategories.jsx
+│   │   │   ├── FeaturesSection.jsx
+│   │   │   ├── HeroSection.jsx
+│   │   │   ├── index.js
+│   │   │   ├── Navigation.jsx
+│   │   │   ├── PopularProducts.jsx
+│   │   │   ├── PrintingServices.jsx
+│   │   │   ├── StatsSection.jsx
+│   │   │   ├── TestimonialsSection.jsx
+│   │   │   └── TrendingProducts.jsx
+│   │   └── policies
+│   │       ├── PrivacyPolicy.jsx
+│   │       ├── RefundPolicy.jsx
+│   │       └── TermsOfService.jsx
+│   ├── orders
+│   │   ├── AllOrders.jsx
+│   │   ├── AssignedOrders.jsx
+│   │   └── UpdateOrderStatus.jsx
+│   └── products
+│       ├── components
+│       │   ├── Pagination.jsx
+│       │   ├── ProductCard.jsx
+│       │   ├── ProductFilters.jsx
+│       │   ├── ProductImageGallery.jsx
+│       │   ├── ProductStats.jsx
+│       │   └── RelatedProducts.jsx
+│       └── pages
+│           ├── ProductDetailsPage.jsx
+│           └── ProductsListPage.jsx
+├── index.css
+├── main.jsx
+├── pages
+│   └── errors
+│       └── PageNotFound.jsx
+├── shared
+│   ├── components
+│   │   ├── common
+│   │   │   ├── DeviceInfo.jsx
+│   │   │   ├── ErrorBoundary.jsx
+│   │   │   ├── ThemeToggle.jsx
+│   │   │   └── Toast.jsx
+│   │   ├── feedback
+│   │   │   └── StatusBadge.jsx
+│   │   ├── layout
+│   │   │   ├── Footer.jsx
+│   │   │   ├── Sidebar.jsx
+│   │   │   └── Topbar.jsx
+│   │   ├── profile
+│   │   │   ├── ProfileCard.jsx
+│   │   │   └── ProfileDropdown.jsx
+│   │   └── ui
+│   │       ├── Button.jsx
+│   │       ├── Card.jsx
+│   │       ├── Image.jsx
+│   │       ├── ImagePlaceholder.jsx
+│   │       ├── Loading.jsx
+│   │       ├── LogoutButton.jsx
+│   │       └── Modal.jsx
+│   ├── config
+│   │   └── companyInfo.js
+│   ├── context
+│   │   ├── AuthContext.jsx
+│   │   ├── ThemeContext.jsx
+│   │   └── ToastContext.jsx
+│   ├── hooks
+│   │   ├── useAuth.js
+│   │   ├── useCategories.js
+│   │   ├── useFeatures.js
+│   │   ├── useFetch.js
+│   │   ├── useOrder.js
+│   │   ├── usePopularProducts.js
+│   │   ├── usePrintingServices.js
+│   │   ├── useProducts.js
+│   │   ├── useScrollToTop.js
+│   │   ├── useStats.js
+│   │   ├── useTestimonials.js
+│   │   ├── useTheme.js
+│   │   ├── useToast.js
+│   │   ├── useTrendingProducts.js
+│   │   └── useUser.js
+│   ├── routes
+│   │   ├── AppRoutes.jsx
+│   │   └── guards
+│   │       ├── AuthGuard.jsx
+│   │       ├── GuestGuard.jsx
+│   │       └── RoleGuard.jsx
+│   ├── services
+│   │   ├── addressService.js
+│   │   ├── adminService.js
+│   │   ├── api.js
+│   │   ├── authService.js
+│   │   ├── categoryService.js
+│   │   ├── landingService.js
+│   │   ├── operatorService.js
+│   │   ├── orderService.js
+│   │   ├── productService.js
+│   │   ├── roleService.js
+│   │   └── userService.js
+│   └── utils
+│       ├── deviceUtils.js
+│       └── logger.js
+├── store
+│   ├── index.js
+│   └── slices
+│       └── authSlice.js
+└── structure.txt
+
+45 directories, 111 files

@@ -1,0 +1,12 @@
+// Centralized export for all landing page components
+export { default as Topbar } from '../../../shared/components/layout/Topbar';
+export { default as Navigation } from './Navigation';
+export { default as Footer } from '../../../shared/components/layout/Footer';
+export { default as HeroSection } from './HeroSection';
+export { default as ExploreAllCategories } from './ExploreAllCategories';
+export { default as TrendingProducts } from './TrendingProducts';
+export { default as PopularProducts } from './PopularProducts';
+export { default as PrintingServices } from './PrintingServices';
+export { default as FeaturesSection } from './FeaturesSection';
+export { default as TestimonialsSection } from './TestimonialsSection';
+export { default as StatsSection } from './StatsSection';
