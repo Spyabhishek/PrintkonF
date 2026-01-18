@@ -40,7 +40,7 @@ pipeline {
                     // Stop existing container if it exists
                     sh "docker stop react-app || true && docker rm react-app || true"
                     // Run the new container
-                    sh "docker run -d --name react-app -p 8080:80 ${DOCKER_IMAGE}:latest"
+                    sh "docker run -d --name react-app -p 4001:80 ${DOCKER_IMAGE}:latest"
                 }
             }
         }
